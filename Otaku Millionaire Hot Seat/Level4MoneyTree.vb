@@ -129,6 +129,12 @@
             'Green the correct answers
             Money01.BackColor = Color.Green
             Money01.ForeColor = Color.White
+            Money02.BackColor = Color.Green
+            Money02.ForeColor = Color.White
+            Money03.BackColor = Color.Green
+            Money03.ForeColor = Color.White
+            Money04.BackColor = Color.Green
+            Money04.ForeColor = Color.White
             Money05.BackColor = Color.Green
             Money05.ForeColor = Color.White
             Money06.BackColor = Color.Green
@@ -197,6 +203,12 @@
             'Green the correct answers
             Money01.BackColor = Color.Green
             Money01.ForeColor = Color.White
+            Money02.BackColor = Color.Green
+            Money02.ForeColor = Color.White
+            Money03.BackColor = Color.Green
+            Money03.ForeColor = Color.White
+            Money04.BackColor = Color.Green
+            Money04.ForeColor = Color.White
             Money05.BackColor = Color.Green
             Money05.ForeColor = Color.White
             Money06.BackColor = Color.Green
@@ -213,12 +225,6 @@
             Money11.ForeColor = Color.White
             Money12.BackColor = Color.Green
             Money12.ForeColor = Color.White
-            Money13.BackColor = Color.Green
-            Money13.ForeColor = Color.White
-            Money14.BackColor = Color.Green
-            Money14.ForeColor = Color.White
-            Money15.BackColor = Color.Green
-            Money15.ForeColor = Color.White
             Money13.BackColor = Color.Green
             Money13.ForeColor = Color.White
             PlayerScreen.Money01.BackColor = Color.Green
@@ -263,6 +269,12 @@
             'Green the correct answers
             Money01.BackColor = Color.Green
             Money01.ForeColor = Color.White
+            Money02.BackColor = Color.Green
+            Money02.ForeColor = Color.White
+            Money03.BackColor = Color.Green
+            Money03.ForeColor = Color.White
+            Money04.BackColor = Color.Green
+            Money04.ForeColor = Color.White
             Money05.BackColor = Color.Green
             Money05.ForeColor = Color.White
             Money06.BackColor = Color.Green
@@ -279,12 +291,6 @@
             Money11.ForeColor = Color.White
             Money12.BackColor = Color.Green
             Money12.ForeColor = Color.White
-            Money13.BackColor = Color.Green
-            Money13.ForeColor = Color.White
-            Money14.BackColor = Color.Green
-            Money14.ForeColor = Color.White
-            Money15.BackColor = Color.Green
-            Money15.ForeColor = Color.White
             PlayerScreen.Money01.BackColor = Color.Green
             PlayerScreen.Money01.ForeColor = Color.White
             PlayerScreen.Money02.BackColor = Color.Green
@@ -327,6 +333,12 @@
             'Green the correct answers
             Money01.ForeColor = Color.White
             Money05.BackColor = Color.Green
+            Money02.BackColor = Color.Green
+            Money02.ForeColor = Color.White
+            Money03.BackColor = Color.Green
+            Money03.ForeColor = Color.White
+            Money04.BackColor = Color.Green
+            Money04.ForeColor = Color.White
             Money05.ForeColor = Color.White
             Money06.BackColor = Color.Green
             Money06.ForeColor = Color.White
@@ -340,12 +352,6 @@
             Money10.ForeColor = Color.White
             Money11.BackColor = Color.Green
             Money11.ForeColor = Color.White
-            Money12.BackColor = Color.Green
-            Money12.ForeColor = Color.White
-            Money13.BackColor = Color.Green
-            Money13.ForeColor = Color.White
-            Money14.BackColor = Color.Green
-            Money14.ForeColor = Color.White
             PlayerScreen.Money01.BackColor = Color.Green
             PlayerScreen.Money01.ForeColor = Color.White
             PlayerScreen.Money02.BackColor = Color.Green
@@ -388,6 +394,12 @@
             'Green the correct answers
             Money01.BackColor = Color.Green
             Money01.ForeColor = Color.White
+            Money02.BackColor = Color.Green
+            Money02.ForeColor = Color.White
+            Money03.BackColor = Color.Green
+            Money03.ForeColor = Color.White
+            Money04.BackColor = Color.Green
+            Money04.ForeColor = Color.White
             Money05.BackColor = Color.Green
             Money05.ForeColor = Color.White
             Money06.BackColor = Color.Green
@@ -400,12 +412,6 @@
             Money09.ForeColor = Color.White
             Money10.BackColor = Color.Green
             Money10.ForeColor = Color.White
-            Money11.BackColor = Color.Green
-            Money11.ForeColor = Color.White
-            Money12.BackColor = Color.Green
-            Money12.ForeColor = Color.White
-            Money13.BackColor = Color.Green
-            Money13.ForeColor = Color.White
             PlayerScreen.Money01.BackColor = Color.Green
             PlayerScreen.Money01.ForeColor = Color.White
             PlayerScreen.Money02.BackColor = Color.Green
@@ -448,6 +454,12 @@
             'Green the correct answers
             Money01.BackColor = Color.Green
             Money01.ForeColor = Color.White
+            Money02.BackColor = Color.Green
+            Money02.ForeColor = Color.White
+            Money03.BackColor = Color.Green
+            Money03.ForeColor = Color.White
+            Money04.BackColor = Color.Green
+            Money04.ForeColor = Color.White
             Money05.BackColor = Color.Green
             Money05.ForeColor = Color.White
             Money06.BackColor = Color.Green
@@ -458,12 +470,6 @@
             Money08.ForeColor = Color.White
             Money09.BackColor = Color.Green
             Money09.ForeColor = Color.White
-            Money10.BackColor = Color.Green
-            Money10.ForeColor = Color.White
-            Money11.BackColor = Color.Green
-            Money11.ForeColor = Color.White
-            Money12.BackColor = Color.Green
-            Money12.ForeColor = Color.White
             PlayerScreen.Money01.BackColor = Color.Green
             PlayerScreen.Money01.ForeColor = Color.White
             PlayerScreen.Money02.BackColor = Color.Green
@@ -510,6 +516,9 @@
     Sub HideValue()
         'Hide the money tree
         Money01.Visible = False
+        Money02.Visible = False
+        Money03.Visible = False
+        Money04.Visible = False
         Money05.Visible = False
         Money06.Visible = False
         Money07.Visible = False

@@ -367,6 +367,7 @@
                 AskPic.Visible = False
                 TrustPic.Visible = False
                 DoubleDipPic.Visible = False
+                PlayerScreen.DoubleDipPic.Visible = False
                 PlayerScreen.AskFriendPic.Visible = False
                 PlayerScreen.AskPic.Visible = False
                 PlayerScreen.TrustPic.Visible = False

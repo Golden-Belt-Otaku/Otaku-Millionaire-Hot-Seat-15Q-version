@@ -108,8 +108,8 @@ Public Class Q13
         TopPrizeQuestionRemaining.Text = CStr(questionsRemaining)
         PlayersRemaining.Text = CStr(GPlayersRemaining)
 
-        'close Question 9
-        Q09.Close()
+        'close Question 12
+        Q12.Close()
     End Sub
 
     Sub LifelineUsed()

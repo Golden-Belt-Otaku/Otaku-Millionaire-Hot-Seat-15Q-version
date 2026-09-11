@@ -181,6 +181,9 @@
                 'reset questions
                 PlayerScreen.ResetQuestionArea()
 
+                'start Level1 Music
+                My.Computer.Audio.Play(My.Resources.Level1QuestionMusic, AudioPlayMode.BackgroundLoop)
+
                 'check if incorrect is visible
                 If Incorrect.Visible = True Then
                     If GPlayersRemaining = 5 Then
@@ -208,21 +211,18 @@
                         PlayerScreen.PassPic.Visible = True
                     End If
                 Else
-                    'open the second question
-                    Level2MoneyTree.Show()
+                    'open the third question
+                    Q03.Show()
 
                     'reset questions
                     PlayerScreen.ResetQuestionArea()
-
-                    'level window
-                    PlayerScreen.LevelWindow()
                 End If
             Case 4
-                'open the second question
-                Level2MoneyTree.Show()
+                'open the third question
+                Q03.Show()
 
-                'level window
-                PlayerScreen.LevelWindow()
+                'reset questions
+                PlayerScreen.ResetQuestionArea()
         End Select
 
         'add one to ButtonCount

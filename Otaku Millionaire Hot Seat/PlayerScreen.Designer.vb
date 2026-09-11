@@ -465,6 +465,7 @@ Partial Class PlayerScreen
         Me.Money01.Size = New System.Drawing.Size(79, 33)
         Me.Money01.TabIndex = 337
         Me.Money01.Text = "¥100"
+        Me.Money01.Visible = False
         '
         'Money02
         '
@@ -475,6 +476,7 @@ Partial Class PlayerScreen
         Me.Money02.Size = New System.Drawing.Size(79, 33)
         Me.Money02.TabIndex = 349
         Me.Money02.Text = "¥200"
+        Me.Money02.Visible = False
         '
         'Money03
         '
@@ -485,6 +487,7 @@ Partial Class PlayerScreen
         Me.Money03.Size = New System.Drawing.Size(79, 33)
         Me.Money03.TabIndex = 351
         Me.Money03.Text = "¥300"
+        Me.Money03.Visible = False
         '
         'Money04
         '
@@ -495,6 +498,7 @@ Partial Class PlayerScreen
         Me.Money04.Size = New System.Drawing.Size(79, 33)
         Me.Money04.TabIndex = 350
         Me.Money04.Text = "¥500"
+        Me.Money04.Visible = False
         '
         'Money10
         '
@@ -505,6 +509,7 @@ Partial Class PlayerScreen
         Me.Money10.Size = New System.Drawing.Size(119, 33)
         Me.Money10.TabIndex = 343
         Me.Money10.Text = "¥10,000"
+        Me.Money10.Visible = False
         '
         'Money09
         '
@@ -515,6 +520,7 @@ Partial Class PlayerScreen
         Me.Money09.Size = New System.Drawing.Size(103, 33)
         Me.Money09.TabIndex = 342
         Me.Money09.Text = "¥6,000"
+        Me.Money09.Visible = False
         '
         'Money08
         '
@@ -525,6 +531,7 @@ Partial Class PlayerScreen
         Me.Money08.Size = New System.Drawing.Size(103, 33)
         Me.Money08.TabIndex = 341
         Me.Money08.Text = "¥4,000"
+        Me.Money08.Visible = False
         '
         'Money07
         '
@@ -535,6 +542,7 @@ Partial Class PlayerScreen
         Me.Money07.Size = New System.Drawing.Size(103, 33)
         Me.Money07.TabIndex = 340
         Me.Money07.Text = "¥2,500"
+        Me.Money07.Visible = False
         '
         'Money06
         '
@@ -545,6 +553,7 @@ Partial Class PlayerScreen
         Me.Money06.Size = New System.Drawing.Size(103, 33)
         Me.Money06.TabIndex = 339
         Me.Money06.Text = "¥1,500"
+        Me.Money06.Visible = False
         '
         'Money05
         '
@@ -555,6 +564,7 @@ Partial Class PlayerScreen
         Me.Money05.Size = New System.Drawing.Size(109, 33)
         Me.Money05.TabIndex = 338
         Me.Money05.Text = "¥1,000"
+        Me.Money05.Visible = False
         '
         'Money11
         '
@@ -565,6 +575,7 @@ Partial Class PlayerScreen
         Me.Money11.Size = New System.Drawing.Size(119, 33)
         Me.Money11.TabIndex = 344
         Me.Money11.Text = "¥20,000"
+        Me.Money11.Visible = False
         '
         'Money12
         '
@@ -575,6 +586,7 @@ Partial Class PlayerScreen
         Me.Money12.Size = New System.Drawing.Size(119, 33)
         Me.Money12.TabIndex = 345
         Me.Money12.Text = "¥50,000"
+        Me.Money12.Visible = False
         '
         'Money13
         '
@@ -585,6 +597,7 @@ Partial Class PlayerScreen
         Me.Money13.Size = New System.Drawing.Size(135, 33)
         Me.Money13.TabIndex = 346
         Me.Money13.Text = "¥100,000"
+        Me.Money13.Visible = False
         '
         'Money14
         '
@@ -595,6 +608,7 @@ Partial Class PlayerScreen
         Me.Money14.Size = New System.Drawing.Size(135, 33)
         Me.Money14.TabIndex = 347
         Me.Money14.Text = "¥250,000"
+        Me.Money14.Visible = False
         '
         'Money15
         '
@@ -605,6 +619,7 @@ Partial Class PlayerScreen
         Me.Money15.Size = New System.Drawing.Size(169, 33)
         Me.Money15.TabIndex = 348
         Me.Money15.Text = "¥1,000,000"
+        Me.Money15.Visible = False
         '
         'Topic15
         '
@@ -777,6 +792,7 @@ Partial Class PlayerScreen
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1264, 681)
         Me.ControlBox = False
+        Me.Controls.Add(Me.ShowLogo)
         Me.Controls.Add(Me.Money01)
         Me.Controls.Add(Me.Money02)
         Me.Controls.Add(Me.Money03)
@@ -821,7 +837,6 @@ Partial Class PlayerScreen
         Me.Controls.Add(Me.A)
         Me.Controls.Add(Me.TrustPic)
         Me.Controls.Add(Me.AskFriendPic)
-        Me.Controls.Add(Me.DoubleDipPic)
         Me.Controls.Add(Me.ChoiceD)
         Me.Controls.Add(Me.ChoiceC)
         Me.Controls.Add(Me.ChoiceB)
@@ -839,7 +854,7 @@ Partial Class PlayerScreen
         Me.Controls.Add(Me.PassPic)
         Me.Controls.Add(Me.EndShowLogo)
         Me.Controls.Add(Me.AskPic)
-        Me.Controls.Add(Me.ShowLogo)
+        Me.Controls.Add(Me.DoubleDipPic)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.MaximizeBox = False
         Me.MaximumSize = New System.Drawing.Size(1280, 720)

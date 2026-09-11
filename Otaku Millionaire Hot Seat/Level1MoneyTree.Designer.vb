@@ -138,7 +138,7 @@ Partial Class Level1MoneyTree
         Me.MainDetail1.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MainDetail1.Location = New System.Drawing.Point(67, 230)
         Me.MainDetail1.Name = "MainDetail1"
-        Me.MainDetail1.Size = New System.Drawing.Size(672, 231)
+        Me.MainDetail1.Size = New System.Drawing.Size(695, 330)
         Me.MainDetail1.TabIndex = 64
         Me.MainDetail1.Text = resources.GetString("MainDetail1.Text")
         Me.MainDetail1.Visible = False
@@ -147,7 +147,7 @@ Partial Class Level1MoneyTree
         '
         Me.Level1Label.AutoSize = True
         Me.Level1Label.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Level1Label.Location = New System.Drawing.Point(74, 496)
+        Me.Level1Label.Location = New System.Drawing.Point(74, 560)
         Me.Level1Label.Name = "Level1Label"
         Me.Level1Label.Size = New System.Drawing.Size(96, 29)
         Me.Level1Label.TabIndex = 66
@@ -158,11 +158,11 @@ Partial Class Level1MoneyTree
         '
         Me.Level1Rules.AutoSize = True
         Me.Level1Rules.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Level1Rules.Location = New System.Drawing.Point(74, 538)
+        Me.Level1Rules.Location = New System.Drawing.Point(74, 589)
         Me.Level1Rules.Name = "Level1Rules"
         Me.Level1Rules.Size = New System.Drawing.Size(308, 87)
         Me.Level1Rules.TabIndex = 67
-        Me.Level1Rules.Text = "1. General Otaku Knowelge" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "2. Two Questions" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "3. 15 Seconds"
+        Me.Level1Rules.Text = "1. General Otaku Knowelge" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "2. Five Questions" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "3. 15 Seconds"
         Me.Level1Rules.Visible = False
         '
         'AskPic
@@ -229,6 +229,7 @@ Partial Class Level1MoneyTree
         Me.Money01.Size = New System.Drawing.Size(79, 33)
         Me.Money01.TabIndex = 337
         Me.Money01.Text = "¥100"
+        Me.Money01.Visible = False
         '
         'Money02
         '
@@ -239,6 +240,7 @@ Partial Class Level1MoneyTree
         Me.Money02.Size = New System.Drawing.Size(79, 33)
         Me.Money02.TabIndex = 349
         Me.Money02.Text = "¥200"
+        Me.Money02.Visible = False
         '
         'Money03
         '
@@ -249,6 +251,7 @@ Partial Class Level1MoneyTree
         Me.Money03.Size = New System.Drawing.Size(79, 33)
         Me.Money03.TabIndex = 351
         Me.Money03.Text = "¥300"
+        Me.Money03.Visible = False
         '
         'Money04
         '
@@ -259,6 +262,7 @@ Partial Class Level1MoneyTree
         Me.Money04.Size = New System.Drawing.Size(79, 33)
         Me.Money04.TabIndex = 350
         Me.Money04.Text = "¥500"
+        Me.Money04.Visible = False
         '
         'Money10
         '
@@ -269,6 +273,7 @@ Partial Class Level1MoneyTree
         Me.Money10.Size = New System.Drawing.Size(119, 33)
         Me.Money10.TabIndex = 343
         Me.Money10.Text = "¥10,000"
+        Me.Money10.Visible = False
         '
         'Money09
         '
@@ -279,6 +284,7 @@ Partial Class Level1MoneyTree
         Me.Money09.Size = New System.Drawing.Size(103, 33)
         Me.Money09.TabIndex = 342
         Me.Money09.Text = "¥6,000"
+        Me.Money09.Visible = False
         '
         'Money08
         '
@@ -289,6 +295,7 @@ Partial Class Level1MoneyTree
         Me.Money08.Size = New System.Drawing.Size(103, 33)
         Me.Money08.TabIndex = 341
         Me.Money08.Text = "¥4,000"
+        Me.Money08.Visible = False
         '
         'Money07
         '
@@ -299,6 +306,7 @@ Partial Class Level1MoneyTree
         Me.Money07.Size = New System.Drawing.Size(103, 33)
         Me.Money07.TabIndex = 340
         Me.Money07.Text = "¥2,500"
+        Me.Money07.Visible = False
         '
         'Money06
         '
@@ -309,6 +317,7 @@ Partial Class Level1MoneyTree
         Me.Money06.Size = New System.Drawing.Size(103, 33)
         Me.Money06.TabIndex = 339
         Me.Money06.Text = "¥1,500"
+        Me.Money06.Visible = False
         '
         'Money05
         '
@@ -319,6 +328,7 @@ Partial Class Level1MoneyTree
         Me.Money05.Size = New System.Drawing.Size(109, 33)
         Me.Money05.TabIndex = 338
         Me.Money05.Text = "¥1,000"
+        Me.Money05.Visible = False
         '
         'Money11
         '
@@ -329,6 +339,7 @@ Partial Class Level1MoneyTree
         Me.Money11.Size = New System.Drawing.Size(119, 33)
         Me.Money11.TabIndex = 344
         Me.Money11.Text = "¥20,000"
+        Me.Money11.Visible = False
         '
         'Money12
         '
@@ -339,6 +350,7 @@ Partial Class Level1MoneyTree
         Me.Money12.Size = New System.Drawing.Size(119, 33)
         Me.Money12.TabIndex = 345
         Me.Money12.Text = "¥50,000"
+        Me.Money12.Visible = False
         '
         'Money13
         '
@@ -349,6 +361,7 @@ Partial Class Level1MoneyTree
         Me.Money13.Size = New System.Drawing.Size(135, 33)
         Me.Money13.TabIndex = 346
         Me.Money13.Text = "¥100,000"
+        Me.Money13.Visible = False
         '
         'Money14
         '
@@ -359,6 +372,7 @@ Partial Class Level1MoneyTree
         Me.Money14.Size = New System.Drawing.Size(135, 33)
         Me.Money14.TabIndex = 347
         Me.Money14.Text = "¥250,000"
+        Me.Money14.Visible = False
         '
         'Money15
         '
@@ -369,6 +383,7 @@ Partial Class Level1MoneyTree
         Me.Money15.Size = New System.Drawing.Size(169, 33)
         Me.Money15.TabIndex = 348
         Me.Money15.Text = "¥1,000,000"
+        Me.Money15.Visible = False
         '
         'Topic15
         '
