@@ -423,6 +423,7 @@ Partial Class Level4MoneyTree
         Me.btnSecondChance.TabIndex = 89
         Me.btnSecondChance.Text = "Second Chance"
         Me.btnSecondChance.UseVisualStyleBackColor = True
+        Me.btnSecondChance.Visible = False
         '
         'DoubleDipPic
         '

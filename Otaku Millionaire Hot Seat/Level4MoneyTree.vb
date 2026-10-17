@@ -558,7 +558,7 @@
         'show the count file
         Select Case count
             Case 2
-                If Money14.Visible = True Then
+                If Money11.Visible = True Then
                     'show second chance button
                     btnSecondChance.Visible = True
                 Else
@@ -611,6 +611,9 @@
         PlayerScreen.AskFriendPic.Visible = False
         DoubleDipPic.Visible = False
         PlayerScreen.DoubleDipPic.Visible = False
+
+        'hide the button
+        btnSecondChance.Visible = False
 
         'display count to 4
         count = 4

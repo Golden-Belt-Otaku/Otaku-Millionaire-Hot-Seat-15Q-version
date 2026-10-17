@@ -2,8 +2,8 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Otaku Millionaire Hot Seat"
-#define MyAppVersion "32.0.0"
-#define MyAppPublisher "Golden Belt Oatku"
+#define MyAppVersion "33.0.0"
+#define MyAppPublisher "Golden Belt Otaku"
 #define MyAppExeName "Otaku Millionaire Hot Seat.exe"
 #define MyAppAssocName MyAppName + ""
 #define MyAppAssocExt ".myp"
@@ -14,7 +14,7 @@
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{D2B04CC2-DAEA-462C-B5C3-8CFD0A2DC26C}
+AppId={{24EFA810-0E80-4AFD-8FFD-5B78AB8CB242}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={cm:NameAndVersion,{#EscapeConstArgument(MyAppName)},{#EscapeConstArgument(MyAppVersion)}}
