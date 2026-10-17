@@ -264,6 +264,17 @@
                         PlayerScreen.PassPic.Visible = True
                     End If
                 Else
+                    'play going to break music
+                    My.Computer.Audio.Play(My.Resources.FirstandThirdAdBreaksStart, AudioPlayMode.Background)
+                End If
+            Case 4
+                If Incorrect.Visible = True Then
+                    'play going to break music
+                    My.Computer.Audio.Play(My.Resources.FirstandThirdAdBreaksStart, AudioPlayMode.Background)
+                Else
+                    'play back from break music
+                    My.Computer.Audio.Play(My.Resources.FirstAdBreakEnd, AudioPlayMode.Background)
+
                     'open the second question
                     Level2MoneyTree.Show()
 
@@ -273,7 +284,7 @@
                     'level window
                     PlayerScreen.LevelWindow()
                 End If
-            Case 4
+            Case 5
                 'open the second question
                 Level2MoneyTree.Show()
 

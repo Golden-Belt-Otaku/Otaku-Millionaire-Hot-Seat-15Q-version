@@ -450,6 +450,14 @@ Partial Public Class Q14
                     TrustPic.Visible = False
                     PlayerScreen.TrustPic.Visible = False
                 Else
+                    'play commerical break music
+                    My.Computer.Audio.Play(My.Resources.FirstandThirdAdBreaksStart, AudioPlayMode.Background)
+                End If
+            Case 4
+                If Incorrect.Visible = True Or choice <> answer Then
+                    'play commerical break music
+                    My.Computer.Audio.Play(My.Resources.FirstandThirdAdBreaksStart, AudioPlayMode.Background)
+                Else
                     'level window
                     PlayerScreen.LevelWindow()
 
@@ -459,7 +467,7 @@ Partial Public Class Q14
                     'open the Level 4 Window 
                     Level4MoneyTree.Show()
                 End If
-            Case 4
+            Case 5
                 'level window
                 PlayerScreen.LevelWindow()
 

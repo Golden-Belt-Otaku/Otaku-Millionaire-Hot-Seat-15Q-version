@@ -288,6 +288,12 @@ Public Class Q10
                 'show the MasterButton Next Action
                 MasterButton.Text = "Answer"
             Case 2
+                'play commerical break music
+                My.Computer.Audio.Play(My.Resources.SecondAdBreaksStart, AudioPlayMode.Background)
+            Case 3
+                'play return to commercial break music
+                My.Computer.Audio.Play(My.Resources.SecondAdBreakEnd, AudioPlayMode.Background)
+            Case 4
                 'perform questionResult
                 QuestionResult()
 
@@ -364,7 +370,7 @@ Public Class Q10
                     'take away one from players
                     PlayersRemaining.Text = CStr(GPlayersRemaining)
                 End If
-            Case 3
+            Case 5
                 'check if incorrect is visible
                 If Incorrect.Visible = True Or choice <> answer Then
                     If GPlayersRemaining = 5 Then
@@ -485,7 +491,7 @@ Public Class Q10
                     'open the Level 3 Money Tree
                     Level3MoneyTree.Show()
                 End If
-            Case 4
+            Case 6
                 'level window
                 PlayerScreen.LevelWindow()
 
