@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Otaku Millionaire Hot Seat"
-#define MyAppVersion "33.0.0"
+#define MyAppVersion "33.1.0"
 #define MyAppPublisher "Golden Belt Otaku"
 #define MyAppExeName "Otaku Millionaire Hot Seat.exe"
 #define MyAppAssocName MyAppName + ""

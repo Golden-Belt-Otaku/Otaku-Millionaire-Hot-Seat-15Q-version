@@ -615,6 +615,16 @@
         'hide the button
         btnSecondChance.Visible = False
 
+        'show the Level 4 Rules
+        Level4Label.Visible = True
+        Level4Rules.Visible = True
+
+        'show the Final question Button
+        ResumeGame.Visible = True
+
+        'hide the TransitionButton
+        Transition.Visible = False
+
         'display count to 4
         count = 4
     End Sub
